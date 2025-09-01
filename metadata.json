@@ -1,0 +1,5 @@
+{
+  "name": "GitHub Year in Review",
+  "description": "Generate a Strava-like shareable image of your GitHub statistics for the year, overlaid on a custom background image.",
+  "requestFramePermissions": []
+}
