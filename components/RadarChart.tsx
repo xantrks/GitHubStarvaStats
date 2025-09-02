@@ -30,7 +30,7 @@ const RadarChart: React.FC<RadarChartProps> = ({ data }) => {
 
   const polygonPoints = `${points.codeReviews.x},${points.codeReviews.y} ${points.issues.x},${points.issues.y} ${points.pullRequests.x},${points.pullRequests.y} ${points.commits.x},${points.commits.y}`;
 
-  const orangeColor = "#F97316"; // A vibrant orange
+  const orangeColor = "#f97316"; // tailwind orange-500
   const axisColor = "rgba(249, 115, 22, 0.4)";
   const polygonFillColor = "rgba(249, 115, 22, 0.2)";
   const polygonStrokeColor = orangeColor;

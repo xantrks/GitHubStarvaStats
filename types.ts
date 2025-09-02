@@ -22,3 +22,5 @@ export interface GitHubStats {
   contributionGraphSvg: string;
   contributionDistribution: ContributionDistribution;
 }
+
+export type TimeFrame = 'daily' | 'monthly' | 'yearly';
